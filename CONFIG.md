@@ -1,6 +1,6 @@
 # WindSR 配置说明
 
-`configs/drct/cross/gate/16_paper_0_yaml/256_paper_0_nogate_32.yaml`
+`configs/32.yaml`
 
 ## 配置结构
 ```yaml
@@ -34,7 +34,7 @@ data:
 ## 使用方式
 1. 复制默认 YAML 并按需调整路径或超参：
    ```bash
-   cp configs/.../256_paper_0_nogate_32.yaml configs/.../my_experiment.yaml
+   cp configs/32.yaml configs/my_experiment.yaml
    ```
 2. 运行训练或验证：
    ```bash

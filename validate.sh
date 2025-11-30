@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 使用传入的第一个参数作为配置文件路径（可选）
-CONFIG_FILE=${1:-"configs/drct/cross/gate/16_paper_0_yaml/256_paper_0_nogate_32.yaml"}
+CONFIG_FILE=${1:-"configs/32.yaml"}
 if [ $# -ge 1 ]; then
   shift
 fi
